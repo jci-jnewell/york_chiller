@@ -758,12 +758,12 @@
             <Value>=Parameters!JobName.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>SELECT *
+        <CommandText>SELECT DISTINCT *
 FROM	[VIEW_CHILLER_RPT_CONTRACT_DETAILS]
 WHERE 
 	(NULLIF(@SerialNumber, '') IS NOT NULL AND [SERIAL_NUM] LIKE REPLACE(@SerialNumber, '*', '%'))  OR
 	(NULLIF(@ContractID, '') IS NOT NULL AND [CONTRACT_NUMBER] LIKE REPLACE(@ContractID, '*', '%')) OR
-	(NULLIF(@JobName, '') IS NOT NULL AND [CONTRACT_NAME] LIKE REPLACE(@JobName, '*', '%')) </CommandText>
+	(NULLIF(@JobName, '') IS NOT NULL AND [CONTRACT_NAME] LIKE REPLACE(@JobName, '*', '%'))</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
