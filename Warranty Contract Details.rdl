@@ -9,7 +9,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Warranty Contract Details</Value>
+                <Value>Contract Details</Value>
                 <Style>
                   <FontFamily>Tahoma</FontFamily>
                   <FontWeight>Normal</FontWeight>
@@ -34,10 +34,10 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.71875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.63542in</Width>
+              <Width>1.60417in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1.125in</Width>
@@ -59,7 +59,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>SERIAL NUM</Value>
+                              <Value>Contract Number</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>White</Color>
@@ -93,7 +93,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>MODEL NBR</Value>
+                              <Value>Unit Serial #</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>White</Color>
@@ -127,7 +127,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>CONTRACT NBR</Value>
+                              <Value>Contract Name</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>White</Color>
@@ -161,7 +161,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>START DATE</Value>
+                              <Value>Warranty Renewal Date</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>White</Color>
@@ -178,6 +178,139 @@
                           <Style>Solid</Style>
                         </Border>
                         <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox9">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox9</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox10">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox10</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox11">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox11</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox12">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox12</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -257,14 +390,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="CMS_CONTRACT_NBR">
+                    <Textbox Name="CONTRACT_NAME1">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!CMS_CONTRACT_NBR.Value</Value>
+                              <Value />
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                               </Style>
@@ -273,7 +406,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>CMS_CONTRACT_NBR</rd:DefaultName>
+                      <rd:DefaultName>CONTRACT_NAME1</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -289,14 +422,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="START_DATE">
+                    <Textbox Name="DFF2_WARRANTY_END_DATE">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!START_DATE.Value</Value>
+                              <Value />
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                               </Style>
@@ -305,7 +438,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>START_DATE</rd:DefaultName>
+                      <rd:DefaultName>DFF2_WARRANTY_END_DATE</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -334,35 +467,128 @@
         <TablixRowHierarchy>
           <TablixMembers>
             <TablixMember>
+              <TablixHeader>
+                <Size>1in</Size>
+                <CellContents>
+                  <Textbox Name="Textbox6">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>CONTRACT NUMBER</Value>
+                            <Style>
+                              <FontFamily>Tahoma</FontFamily>
+                              <Color>White</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox6</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>LightGrey</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>SteelBlue</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepTogether>true</KeepTogether>
+                </TablixMember>
+              </TablixMembers>
               <KeepWithGroup>After</KeepWithGroup>
               <RepeatOnNewPage>true</RepeatOnNewPage>
-              <KeepTogether>true</KeepTogether>
             </TablixMember>
             <TablixMember>
-              <Group Name="table1_Details_Group">
-                <DataElementName>Detail</DataElementName>
+              <Group Name="CONTRACT_NUMBER">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!CONTRACT_NUMBER.Value</GroupExpression>
+                </GroupExpressions>
               </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!CONTRACT_NUMBER.Value</Value>
+                </SortExpression>
+              </SortExpressions>
+              <TablixHeader>
+                <Size>1in</Size>
+                <CellContents>
+                  <Textbox Name="CONTRACT_NUMBER1">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=Fields!CONTRACT_NUMBER.Value</Value>
+                            <Style>
+                              <FontFamily>Tahoma</FontFamily>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>CONTRACT_NUMBER1</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>LightGrey</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
               <TablixMembers>
-                <TablixMember />
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="table1_Details_Group">
+                    <DataElementName>Detail</DataElementName>
+                  </Group>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                  <Visibility>
+                    <Hidden>true</Hidden>
+                    <ToggleItem>CONTRACT_NUMBER1</ToggleItem>
+                  </Visibility>
+                  <DataElementName>Detail_Collection</DataElementName>
+                  <DataElementOutput>Output</DataElementOutput>
+                  <KeepTogether>true</KeepTogether>
+                </TablixMember>
               </TablixMembers>
-              <DataElementName>Detail_Collection</DataElementName>
-              <DataElementOutput>Output</DataElementOutput>
-              <KeepTogether>true</KeepTogether>
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>ContractWarrantyDetails</DataSetName>
         <Top>0.22111in</Top>
-        <Height>0.43in</Height>
-        <Width>6.44792in</Width>
+        <Height>0.68in</Height>
+        <Width>7.13542in</Width>
         <ZIndex>1</ZIndex>
         <Style />
       </Tablix>
     </ReportItems>
-    <Height>0.79in</Height>
+    <Height>3.69667in</Height>
     <Style />
   </Body>
-  <Width>6.44792in</Width>
+  <Width>7.16667in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -387,21 +613,20 @@
             <Value>=Parameters!SerialNumber.Value</Value>
           </QueryParameter>
         </QueryParameters>
-        <CommandText>/***** Read Jumbo_York_Assests based on Serial_Num for the Warranty Contract data *****/
-/***** This will return contract warranty details. DATA USED TO POPULATE WARRANTY CONTRACT DATASET SECTION *****/
-SELECT 
-	   [SERIAL_NUM]
-      ,[CMS_MODEL_NBR]
-      ,[CMS_CONTRACT_NBR]
-      ,[START_DATE]
-      ,[SHIP_DATE]
-      /* Missing YEAR, SECOND_LEVEL_NAME, SDWRTY, SDWRNM, EW_START_DATE  */
-  FROM [YorkSupport].[dbo].[jumbo_york_assets] where serial_num =@SerialNumber</CommandText>
+        <CommandText>/***** Read Jumbo_York_Assests based on Serial_Num for the Warranty Contract data ****
+**** This will return contract warranty details. DATA USED TO POPULATE WARRANTY CONTRACT DATASET SECTION *****/
+SELECT        *
+FROM            VIEW_CHILLER_CONTRACT_DETAILS
+WHERE        (SERIAL_NUM = @SerialNumber)</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
         <Field Name="SERIAL_NUM">
           <DataField>SERIAL_NUM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONTRACT_NUMBER">
+          <DataField>CONTRACT_NUMBER</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="CMS_MODEL_NBR">
@@ -412,12 +637,180 @@ SELECT
           <DataField>CMS_CONTRACT_NBR</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="CONTRACT_NAME">
+          <DataField>CONTRACT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
         <Field Name="START_DATE">
           <DataField>START_DATE</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="DFF1_I_ESTIMATED_COMP_DATE">
+          <DataField>DFF1_I_ESTIMATED_COMP_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF1_S_RENEWAL_DATE">
+          <DataField>DFF1_S_RENEWAL_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
         <Field Name="SHIP_DATE">
           <DataField>SHIP_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF2_WARRANTY_START_DATE">
+          <DataField>DFF2_WARRANTY_START_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF2_WARRANTY_PERIOD_IN_MONTHS">
+          <DataField>DFF2_WARRANTY_PERIOD_IN_MONTHS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF2_WARRANTY_END_DATE">
+          <DataField>DFF2_WARRANTY_END_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF3_TRANSFER_DATE">
+          <DataField>DFF3_TRANSFER_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF4_PSA_IS_PC_FLAG">
+          <DataField>DFF4_PSA_IS_PC_FLAG</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF4_MULTI_YR_PSA_FLAG">
+          <DataField>DFF4_MULTI_YR_PSA_FLAG</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF4_MULTI_YR_CUR_YR_NUMBER">
+          <DataField>DFF4_MULTI_YR_CUR_YR_NUMBER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF4_MULTI_YR_TERM_IN_YEARS">
+          <DataField>DFF4_MULTI_YR_TERM_IN_YEARS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF6_WORK_SITE_COUNTY">
+          <DataField>DFF6_WORK_SITE_COUNTY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF6_WORK_SITE_STREET_1">
+          <DataField>DFF6_WORK_SITE_STREET_1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF6_WORK_SITE_STREET_2">
+          <DataField>DFF6_WORK_SITE_STREET_2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF6_WORK_SITE_CITY">
+          <DataField>DFF6_WORK_SITE_CITY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF6_WORK_SITE_STATE">
+          <DataField>DFF6_WORK_SITE_STATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF6_WORK_SITE_ZIP">
+          <DataField>DFF6_WORK_SITE_ZIP</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF6_WORK_SITE_COUNTRY">
+          <DataField>DFF6_WORK_SITE_COUNTRY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF7_PREVIOUS_CONTRACT_NUMBER">
+          <DataField>DFF7_PREVIOUS_CONTRACT_NUMBER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF7_ASSOCIATED_CONTRACT_NUM">
+          <DataField>DFF7_ASSOCIATED_CONTRACT_NUM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DFF8_I_PRIME_CONTRACTOR_NAME">
+          <DataField>DFF8_I_PRIME_CONTRACTOR_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PA_PROJECT_NAME">
+          <DataField>PA_PROJECT_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CBS_CONTRACT_STATUS">
+          <DataField>CBS_CONTRACT_STATUS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CONTRACT_CLOSED_DATE">
+          <DataField>CONTRACT_CLOSED_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MECH_CONTRACTOR_NAME">
+          <DataField>MECH_CONTRACTOR_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MECH_CONTRACTOR_CITY">
+          <DataField>MECH_CONTRACTOR_CITY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MECH_CONTRACTOR_STATE">
+          <DataField>MECH_CONTRACTOR_STATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MECH_CONTRACTOR_COUNTRY">
+          <DataField>MECH_CONTRACTOR_COUNTRY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MECH_CONTRACTOR_ZIP">
+          <DataField>MECH_CONTRACTOR_ZIP</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EQUIP_DEF_SHIP_INSTRUCTIONS">
+          <DataField>EQUIP_DEF_SHIP_INSTRUCTIONS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BUSINESS_LINE">
+          <DataField>BUSINESS_LINE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SD_NBR">
+          <DataField>SD_NBR</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="COMPONENT_SERIAL_NBR">
+          <DataField>COMPONENT_SERIAL_NBR</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Expr1">
+          <DataField>Expr1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Expr2">
+          <DataField>Expr2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CLAIM_DATE">
+          <DataField>CLAIM_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Expr3">
+          <DataField>Expr3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Expr4">
+          <DataField>Expr4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SD_FAILURE_DATE">
+          <DataField>SD_FAILURE_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FAILURE_COMPONENT_CODE">
+          <DataField>FAILURE_COMPONENT_CODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FAILURE_DEFECT_CODE">
+          <DataField>FAILURE_DEFECT_CODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EW_START_DATE">
+          <DataField>EW_START_DATE</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
