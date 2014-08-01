@@ -10,12 +10,16 @@
   <DataSets />
   <Reports>
     <ProjectItem>
-      <Name>Warranty Contract Details.rdl</Name>
-      <FullPath>Warranty Contract Details.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Job Name.rdl</Name>
       <FullPath>Job Name.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Contract Details.rdl</Name>
+      <FullPath>Contract Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Warranty Contract Details.rdl</Name>
+      <FullPath>Warranty Contract Details.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
