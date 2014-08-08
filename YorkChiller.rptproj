@@ -10,16 +10,36 @@
   <DataSets />
   <Reports>
     <ProjectItem>
-      <Name>Job Name.rdl</Name>
-      <FullPath>Job Name.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Contract Details.rdl</Name>
       <FullPath>Contract Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Job Name.rdl</Name>
+      <FullPath>Job Name.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Warranty Contract Details.rdl</Name>
       <FullPath>Warranty Contract Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Warranty Claim Details.rdl</Name>
+      <FullPath>Warranty Claim Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Warranty Claim Comment Details.rdl</Name>
+      <FullPath>Warranty Claim Comment Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Contract Service History Details.rdl</Name>
+      <FullPath>Contract Service History Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Contract App Data Details.rdl</Name>
+      <FullPath>Contract App Data Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Contract BOM Details.rdl</Name>
+      <FullPath>Contract BOM Details.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
