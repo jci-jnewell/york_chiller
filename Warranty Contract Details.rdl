@@ -46,10 +46,10 @@
               <Width>1.88542in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.19792in</Width>
+              <Width>1.61459in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.19792in</Width>
+              <Width>1.59375in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -68,6 +68,7 @@
                               <Value>Unit Serial #</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -102,6 +103,7 @@
                               <Value>Unit Model #</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -136,6 +138,7 @@
                               <Value>CMS Contract #</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -167,9 +170,10 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Start Date</Value>
+                              <Value>Unit Start Date</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -201,9 +205,10 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Ship Date</Value>
+                              <Value>Unit Ship Date</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
                                 <Color>White</Color>
                               </Style>
                             </TextRun>
@@ -513,7 +518,7 @@
         <Top>0.5in</Top>
         <Left>0.325in</Left>
         <Height>0.97in</Height>
-        <Width>7.40627in</Width>
+        <Width>8.21877in</Width>
         <ZIndex>1</ZIndex>
         <Style />
       </Tablix>
@@ -521,7 +526,7 @@
     <Height>1.47in</Height>
     <Style />
   </Body>
-  <Width>7.73127in</Width>
+  <Width>8.54377in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

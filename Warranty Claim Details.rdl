@@ -37,37 +37,37 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.1875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.8125in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.84375in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>2.48958in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.125in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.14583in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.1875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.20833in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.45833in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.44792in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.46875in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -83,7 +83,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>SD NBR</Value>
+                              <Value>SD#</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -119,7 +119,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>COMPONENT SERIAL NBR</Value>
+                              <Value>Unit Serial #</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -155,7 +155,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>CMS CONTRACT NBR</Value>
+                              <Value>CMS Contract #</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -191,7 +191,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>CMS MODEL NBR</Value>
+                              <Value>Unit Model #</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -227,7 +227,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>CLAIM DATE</Value>
+                              <Value>Claim Date</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -263,7 +263,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>SHIP DATE</Value>
+                              <Value>Ship Date</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -299,7 +299,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>START DATE</Value>
+                              <Value>Unit Start Date</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -335,7 +335,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>SD FAILURE DATE</Value>
+                              <Value>Failure Date</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -371,7 +371,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>FAILURE COMPONENT CODE</Value>
+                              <Value>Failure Code</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -407,7 +407,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>FAILURE DEFECT CODE</Value>
+                              <Value>Failure Defect Code</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -443,7 +443,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>EW START DATE</Value>
+                              <Value>Ext. Warr. Start</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -962,7 +962,7 @@
         <Top>0.5in</Top>
         <Left>0.325in</Left>
         <Height>0.93in</Height>
-        <Width>11in</Width>
+        <Width>16.375in</Width>
         <ZIndex>1</ZIndex>
         <Style />
       </Tablix>
@@ -970,7 +970,7 @@
     <Height>1.43in</Height>
     <Style />
   </Body>
-  <Width>13.83333in</Width>
+  <Width>16.7in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>

@@ -25,7 +25,7 @@
         <Top>0.25in</Top>
         <Left>0.325in</Left>
         <Height>0.36in</Height>
-        <Width>8in</Width>
+        <Width>9.5625in</Width>
         <Style>
           <PaddingLeft>2pt</PaddingLeft>
           <PaddingRight>2pt</PaddingRight>
@@ -40,25 +40,19 @@
               <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.19792in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.11458in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.28125in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>5.16667in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
-            </TablixColumn>
-            <TablixColumn>
-              <Width>1in</Width>
-            </TablixColumn>
-            <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.6875in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -74,7 +68,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>SD NBR</Value>
+                              <Value>SD#</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -110,7 +104,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>DATE OF ENTRY</Value>
+                              <Value>Date of Entry</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -139,42 +133,6 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="textbox4">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>TIME STAMP</Value>
-                              <Style>
-                                <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <FontWeight>Normal</FontWeight>
-                                <Color>White</Color>
-                              </Style>
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>textbox4</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Color>LightGrey</Color>
-                          <Style>Solid</Style>
-                        </Border>
-                        <BackgroundColor>SteelBlue</BackgroundColor>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell>
-                  <CellContents>
                     <Textbox Name="textbox5">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -182,7 +140,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>USER ID</Value>
+                              <Value>User ID</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -211,42 +169,6 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="textbox6">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>SEQUENCE NBR</Value>
-                              <Style>
-                                <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <FontWeight>Normal</FontWeight>
-                                <Color>White</Color>
-                              </Style>
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>textbox6</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Color>LightGrey</Color>
-                          <Style>Solid</Style>
-                        </Border>
-                        <BackgroundColor>SteelBlue</BackgroundColor>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell>
-                  <CellContents>
                     <Textbox Name="textbox7">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -254,7 +176,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>COMMENT SOURCE</Value>
+                              <Value>Comment Source</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -290,7 +212,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>COMMENT</Value>
+                              <Value>Comment</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -326,7 +248,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>SD TRANSMISSION STATUS</Value>
+                              <Value>SD Transmission Status</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -424,38 +346,6 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="TIME_STAMP">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>=Fields!TIME_STAMP.Value</Value>
-                              <Style>
-                                <FontFamily>Tahoma</FontFamily>
-                              </Style>
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>TIME_STAMP</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Color>LightGrey</Color>
-                          <Style>Solid</Style>
-                        </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell>
-                  <CellContents>
                     <Textbox Name="USER_ID">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -473,38 +363,6 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>USER_ID</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Color>LightGrey</Color>
-                          <Style>Solid</Style>
-                        </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell>
-                  <CellContents>
-                    <Textbox Name="SEQUENCE_NBR">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>=Fields!SEQUENCE_NBR.Value</Value>
-                              <Style>
-                                <FontFamily>Tahoma</FontFamily>
-                              </Style>
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>SEQUENCE_NBR</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -559,7 +417,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!COMMENT.Value</Value>
+                              <Value>=IIF(Len(Fields!COMMENT.Value) &gt; 60, Left(Fields!COMMENT.Value, 59) + "…", Fields!COMMENT.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                               </Style>
@@ -569,6 +427,7 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>COMMENT</rd:DefaultName>
+                      <ToolTip>=Fields!COMMENT.Value</ToolTip>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -626,8 +485,6 @@
             <TablixMember />
             <TablixMember />
             <TablixMember />
-            <TablixMember />
-            <TablixMember />
           </TablixMembers>
         </TablixColumnHierarchy>
         <TablixRowHierarchy>
@@ -650,11 +507,11 @@
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
-        <DataSetName>DataSet1</DataSetName>
+        <DataSetName>WarrantyClaimComments</DataSetName>
         <Top>0.5in</Top>
         <Left>0.325in</Left>
         <Height>0.43in</Height>
-        <Width>8in</Width>
+        <Width>11.44792in</Width>
         <ZIndex>1</ZIndex>
         <Style />
       </Tablix>
@@ -662,7 +519,7 @@
     <Height>0.93in</Height>
     <Style />
   </Body>
-  <Width>8.325in</Width>
+  <Width>12.77292in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -673,13 +530,13 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="YorkSupport">
-      <DataSourceReference>York Support</DataSourceReference>
+      <DataSourceReference>YorkSupport</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>6b75600a-ad94-4faf-9290-f878ed1ff844</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="DataSet1">
+    <DataSet Name="WarrantyClaimComments">
       <Query>
         <DataSourceName>YorkSupport</DataSourceName>
         <QueryParameters>
@@ -689,7 +546,8 @@
         </QueryParameters>
         <CommandText>SELECT * 
 FROM VIEW_CHILLER_RPT_CON_WTY_CLAIM_COMMENT
-WHERE SD_NBR = @SdNbr</CommandText>
+WHERE SD_NBR = @SdNbr
+ORDER BY SEQUENCE_NBR ASC</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
