@@ -532,7 +532,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="YorkSupport">
-      <DataSourceReference>York Support</DataSourceReference>
+      <DataSourceReference>YorkSupport</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>9e3dcab6-9b21-4241-b5fb-aa83d433c7ef</rd:DataSourceID>
     </DataSource>

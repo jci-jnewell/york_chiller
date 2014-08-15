@@ -807,7 +807,7 @@
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
-        <DataSetName>DataSet1</DataSetName>
+        <DataSetName>Remedy</DataSetName>
         <Top>0.25in</Top>
         <Height>0.43in</Height>
         <Width>20.61458in</Width>
@@ -828,16 +828,16 @@
   </Page>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
-    <DataSource Name="York_Support">
-      <DataSourceReference>York Support</DataSourceReference>
+    <DataSource Name="YorkSupport">
+      <DataSourceReference>YorkSupport</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>7cd48e9e-0a1b-448d-bf29-56bb65c3f430</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="DataSet1">
+    <DataSet Name="Remedy">
       <Query>
-        <DataSourceName>York_Support</DataSourceName>
+        <DataSourceName>YorkSupport</DataSourceName>
         <QueryParameters>
           <QueryParameter Name="@GlobalID">
             <Value>=Parameters!GlobalID.Value</Value>
@@ -845,7 +845,7 @@
         </QueryParameters>
         <CommandText>SELECT *
 FROM VIEW_CHILLER_RPT_REMEDY
-WHERE Login = @GlobalID</CommandText>
+WHERE Login LIKE REPLACE(CAST(@GlobalID AS VARCHAR(32)), '*', '%')</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
