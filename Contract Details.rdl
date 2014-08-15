@@ -1178,7 +1178,7 @@
         <DataSetName>ContractDetails</DataSetName>
         <Top>0.30444in</Top>
         <Height>1.52208in</Height>
-        <Width>16.8125in</Width>
+        <Width>16.81251in</Width>
         <ZIndex>1</ZIndex>
         <Style />
       </Tablix>
@@ -1197,7 +1197,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="YorkSupport">
-      <DataSourceReference>YorkSupport</DataSourceReference>
+      <DataSourceReference>York Support</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>9e3dcab6-9b21-4241-b5fb-aa83d433c7ef</rd:DataSourceID>
     </DataSource>

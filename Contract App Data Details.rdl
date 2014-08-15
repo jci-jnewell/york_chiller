@@ -7729,7 +7729,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="YorkSupport">
-      <DataSourceReference>YorkSupport</DataSourceReference>
+      <DataSourceReference>York Support</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>19438abb-6fc0-4692-9d38-f146af5dd150</rd:DataSourceID>
     </DataSource>

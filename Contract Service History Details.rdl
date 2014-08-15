@@ -96,7 +96,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -602,7 +601,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="YorkSupport">
-      <DataSourceReference>YorkSupport</DataSourceReference>
+      <DataSourceReference>York Support</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>1c5778d6-876c-4678-93f0-4a0b368d229f</rd:DataSourceID>
     </DataSource>

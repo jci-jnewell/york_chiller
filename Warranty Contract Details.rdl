@@ -513,7 +513,7 @@
         <Top>0.5in</Top>
         <Left>0.325in</Left>
         <Height>0.97in</Height>
-        <Width>7.40625in</Width>
+        <Width>7.40627in</Width>
         <ZIndex>1</ZIndex>
         <Style />
       </Tablix>
@@ -521,7 +521,7 @@
     <Height>1.47in</Height>
     <Style />
   </Body>
-  <Width>7.73125in</Width>
+  <Width>7.73127in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -532,7 +532,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="YorkSupport">
-      <DataSourceReference>YorkSupport</DataSourceReference>
+      <DataSourceReference>York Support</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>9e3dcab6-9b21-4241-b5fb-aa83d433c7ef</rd:DataSourceID>
     </DataSource>
