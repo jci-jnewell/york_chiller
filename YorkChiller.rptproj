@@ -37,6 +37,10 @@
       <Name>Warranty Contract Details.rdl</Name>
       <FullPath>Warranty Contract Details.rdl</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Remedy.rdl</Name>
+      <FullPath>Remedy.rdl</FullPath>
+    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
