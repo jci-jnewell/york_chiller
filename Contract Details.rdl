@@ -2028,6 +2028,58 @@
               <TablixCells>
                 <TablixCell>
                   <CellContents>
+                    <Subreport Name="ContractLiterature">
+                      <ReportName>Contract Literature Details</ReportName>
+                      <Parameters>
+                        <Parameter Name="ContractNumber">
+                          <Value>=Fields!CONTRACT_NUMBER.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                      <Visibility>
+                        <Hidden>true</Hidden>
+                        <ToggleItem>CONTRACT_NUMBER</ToggleItem>
+                      </Visibility>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Subreport>
+                    <ColSpan>26</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
                     <Textbox Name="Textbox78">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -2148,19 +2200,25 @@
                     <ToggleItem>CONTRACT_NUMBER</ToggleItem>
                   </Visibility>
                 </TablixMember>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>true</Hidden>
+                    <ToggleItem>CONTRACT_NUMBER</ToggleItem>
+                  </Visibility>
+                </TablixMember>
               </TablixMembers>
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>ContractDetails</DataSetName>
         <Top>0.30444in</Top>
-        <Height>1.52208in</Height>
-        <Width>41.17707in</Width>
+        <Height>1.77208in</Height>
+        <Width>41.17706in</Width>
         <ZIndex>1</ZIndex>
         <Style />
       </Tablix>
     </ReportItems>
-    <Height>1.82652in</Height>
+    <Height>2.07652in</Height>
     <Style />
   </Body>
   <Width>41.17707in</Width>

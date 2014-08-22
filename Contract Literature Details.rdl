@@ -13,7 +13,7 @@
                 <Style>
                   <FontFamily>Tahoma</FontFamily>
                   <FontSize>12pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
+                  <FontWeight>Normal</FontWeight>
                   <Color>SteelBlue</Color>
                 </Style>
               </TextRun>
@@ -462,17 +462,21 @@
       <Query>
         <DataSourceName>YorkSupport</DataSourceName>
         <QueryParameters>
-          <QueryParameter Name="@ModelNumber">
-            <Value>=Parameters!ModelNumber.Value</Value>
+          <QueryParameter Name="@ContractNumber">
+            <Value>=Parameters!ContractNumber.Value</Value>
           </QueryParameter>
         </QueryParameters>
         <CommandText>SELECT *
 FROM VIEW_CHILLER_RPT_CON_LIT
-WHERE LEFT(@ModelNumber, LEN(modelnum)) = modelnum
+WHERE CMS_CONTRACT_NBR = @ContractNumber
 ORDER BY fileid</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
+        <Field Name="CMS_CONTRACT_NBR">
+          <DataField>CMS_CONTRACT_NBR</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
         <Field Name="fileid">
           <DataField>fileid</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
@@ -497,9 +501,9 @@ ORDER BY fileid</CommandText>
     </DataSet>
   </DataSets>
   <ReportParameters>
-    <ReportParameter Name="ModelNumber">
+    <ReportParameter Name="ContractNumber">
       <DataType>String</DataType>
-      <Prompt>Model Number</Prompt>
+      <Prompt>Contract Number</Prompt>
     </ReportParameter>
   </ReportParameters>
   <Language>en-US</Language>
