@@ -9,11 +9,11 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Warranty Contract Details</Value>
+                <Value>Contract Literature</Value>
                 <Style>
                   <FontFamily>Tahoma</FontFamily>
                   <FontSize>12pt</FontSize>
-                  <FontWeight>Normal</FontWeight>
+                  <FontWeight>Bold</FontWeight>
                   <Color>SteelBlue</Color>
                 </Style>
               </TextRun>
@@ -24,7 +24,7 @@
         <rd:DefaultName>textbox1</rd:DefaultName>
         <Top>0.25in</Top>
         <Left>0.325in</Left>
-        <Height>0.30444in</Height>
+        <Height>0.36in</Height>
         <Width>5in</Width>
         <Style>
           <PaddingLeft>2pt</PaddingLeft>
@@ -37,25 +37,60 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>1.80209in</Width>
+              <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.32292in</Width>
+              <Width>5.64583in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.88542in</Width>
+              <Width>3.40625in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.61459in</Width>
+              <Width>2.96875in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.59375in</Width>
+              <Width>1.79167in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
               <Height>0.22in</Height>
               <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>File ID</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
                 <TablixCell>
                   <CellContents>
                     <Textbox Name="textbox3">
@@ -65,7 +100,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Unit Serial #</Value>
+                              <Value>File Name</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -100,7 +135,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Unit Model #</Value>
+                              <Value>Metatags</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -135,7 +170,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>CMS Contract #</Value>
+                              <Value>Keywords</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -163,14 +198,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox2">
+                    <Textbox Name="textbox6">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Unit Start Date</Value>
+                              <Value>Model # Prefix</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -181,42 +216,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox2</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Color>LightGrey</Color>
-                          <Style>Solid</Style>
-                        </Border>
-                        <BackgroundColor>SteelBlue</BackgroundColor>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell>
-                  <CellContents>
-                    <Textbox Name="Textbox7">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>Unit Ship Date</Value>
-                              <Style>
-                                <FontFamily>Tahoma</FontFamily>
-                                <FontSize>11pt</FontSize>
-                                <Color>White</Color>
-                              </Style>
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>Textbox7</rd:DefaultName>
+                      <rd:DefaultName>textbox6</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -234,18 +234,18 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.25in</Height>
+              <Height>0.21in</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="SERIAL_NUM">
+                    <Textbox Name="fileid">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!SERIAL_NUM.Value</Value>
+                              <Value>=Fields!fileid.Value</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                               </Style>
@@ -254,6 +254,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
+                      <rd:DefaultName>fileid</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -269,14 +270,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="CMS_MODEL_NBR1">
+                    <Textbox Name="filename">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!CMS_MODEL_NBR.Value</Value>
+                              <Value>=Fields!filename.Value</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                               </Style>
@@ -285,7 +286,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>CMS_MODEL_NBR1</rd:DefaultName>
+                      <rd:DefaultName>filename</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -301,14 +302,13 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox16">
-                      <CanGrow>true</CanGrow>
+                    <Textbox Name="metatags">
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!CMS_CONTRACT_NBR.Value</Value>
+                              <Value>=IIF(LEN(Fields!metatags.Value) &gt; 60, LEFT(Fields!metatags.Value, 59) + "…", Fields!metatags.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                               </Style>
@@ -317,7 +317,8 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox16</rd:DefaultName>
+                      <rd:DefaultName>metatags</rd:DefaultName>
+                      <ToolTip>=Fields!metatags.Value</ToolTip>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -333,14 +334,13 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox17">
-                      <CanGrow>true</CanGrow>
+                    <Textbox Name="keywords">
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!START_DATE.Value</Value>
+                              <Value>=IIF(LEN(Fields!keywords.Value) &gt; 60, LEFT(Fields!keywords.Value, 59) + "…", Fields!keywords.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                               </Style>
@@ -349,7 +349,8 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox17</rd:DefaultName>
+                      <rd:DefaultName>keywords</rd:DefaultName>
+                      <ToolTip>=Fields!keywords.Value</ToolTip>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -365,25 +366,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox18">
+                    <Textbox Name="modelnum">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!SHIP_DATE.Value</Value>
-                              <Style>
-                                <FontFamily>Tahoma</FontFamily>
-                              </Style>
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value />
+                              <Value>=Fields!modelnum.Value</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                               </Style>
@@ -392,7 +382,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox18</rd:DefaultName>
+                      <rd:DefaultName>modelnum</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -406,107 +396,6 @@
                     </Textbox>
                   </CellContents>
                 </TablixCell>
-              </TablixCells>
-            </TablixRow>
-            <TablixRow>
-              <Height>0.25in</Height>
-              <TablixCells>
-                <TablixCell>
-                  <CellContents>
-                    <Subreport Name="WarrantyClaimDetails">
-                      <ReportName>Warranty Claim Details</ReportName>
-                      <Parameters>
-                        <Parameter Name="SerialNumber">
-                          <Value>=Fields!SERIAL_NUM.Value</Value>
-                        </Parameter>
-                      </Parameters>
-                      <Visibility>
-                        <Hidden>true</Hidden>
-                        <ToggleItem>SERIAL_NUM</ToggleItem>
-                      </Visibility>
-                      <Style>
-                        <Border>
-                          <Style>None</Style>
-                        </Border>
-                      </Style>
-                    </Subreport>
-                    <ColSpan>5</ColSpan>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell />
-                <TablixCell />
-                <TablixCell />
-                <TablixCell />
-              </TablixCells>
-            </TablixRow>
-            <TablixRow>
-              <Height>0.25in</Height>
-              <TablixCells>
-                <TablixCell>
-                  <CellContents>
-                    <Subreport Name="WarrantyContractLiteratureDetails">
-                      <ReportName>Contract Literature Details</ReportName>
-                      <Parameters>
-                        <Parameter Name="ModelNumber">
-                          <Value>=Fields!CMS_MODEL_NBR.Value</Value>
-                        </Parameter>
-                      </Parameters>
-                      <Visibility>
-                        <Hidden>true</Hidden>
-                        <ToggleItem>SERIAL_NUM</ToggleItem>
-                      </Visibility>
-                      <Style>
-                        <Border>
-                          <Style>None</Style>
-                        </Border>
-                      </Style>
-                    </Subreport>
-                    <ColSpan>5</ColSpan>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell />
-                <TablixCell />
-                <TablixCell />
-                <TablixCell />
-              </TablixCells>
-            </TablixRow>
-            <TablixRow>
-              <Height>0.25in</Height>
-              <TablixCells>
-                <TablixCell>
-                  <CellContents>
-                    <Textbox Name="Textbox27">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value />
-                              <Style />
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>Textbox27</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Style>None</Style>
-                        </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                    <ColSpan>5</ColSpan>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell />
-                <TablixCell />
-                <TablixCell />
-                <TablixCell />
               </TablixCells>
             </TablixRow>
           </TablixRows>
@@ -523,47 +412,36 @@
         <TablixRowHierarchy>
           <TablixMembers>
             <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+              <RepeatOnNewPage>true</RepeatOnNewPage>
               <KeepTogether>true</KeepTogether>
             </TablixMember>
             <TablixMember>
-              <Group Name="Details" />
+              <Group Name="table1_Details_Group">
+                <DataElementName>Detail</DataElementName>
+              </Group>
               <TablixMembers>
                 <TablixMember />
-                <TablixMember>
-                  <Visibility>
-                    <Hidden>true</Hidden>
-                    <ToggleItem>SERIAL_NUM</ToggleItem>
-                  </Visibility>
-                </TablixMember>
-                <TablixMember>
-                  <Visibility>
-                    <Hidden>true</Hidden>
-                    <ToggleItem>SERIAL_NUM</ToggleItem>
-                  </Visibility>
-                </TablixMember>
-                <TablixMember>
-                  <Visibility>
-                    <Hidden>true</Hidden>
-                    <ToggleItem>SERIAL_NUM</ToggleItem>
-                  </Visibility>
-                </TablixMember>
               </TablixMembers>
+              <DataElementName>Detail_Collection</DataElementName>
+              <DataElementOutput>Output</DataElementOutput>
+              <KeepTogether>true</KeepTogether>
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
-        <DataSetName>WarrantyContractDetails</DataSetName>
+        <DataSetName>ContractLiteratureDetails</DataSetName>
         <Top>0.5in</Top>
         <Left>0.325in</Left>
-        <Height>1.22in</Height>
-        <Width>8.21877in</Width>
+        <Height>0.43in</Height>
+        <Width>14.8125in</Width>
         <ZIndex>1</ZIndex>
         <Style />
       </Tablix>
     </ReportItems>
-    <Height>1.72in</Height>
+    <Height>0.93in</Height>
     <Style />
   </Body>
-  <Width>8.54377in</Width>
+  <Width>15.1375in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -576,55 +454,56 @@
     <DataSource Name="YorkSupport">
       <DataSourceReference>YorkSupport</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
-      <rd:DataSourceID>9e3dcab6-9b21-4241-b5fb-aa83d433c7ef</rd:DataSourceID>
+      <rd:DataSourceID>61899ac9-2f70-46d4-be5e-55cce9647330</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="WarrantyContractDetails">
+    <DataSet Name="ContractLiteratureDetails">
       <Query>
         <DataSourceName>YorkSupport</DataSourceName>
         <QueryParameters>
-          <QueryParameter Name="@ContractNumber">
-            <Value>=Parameters!ContractNumber.Value</Value>
+          <QueryParameter Name="@ModelNumber">
+            <Value>=Parameters!ModelNumber.Value</Value>
           </QueryParameter>
         </QueryParameters>
         <CommandText>SELECT *
-FROM [VIEW_CHILLER_RPT_CON_WTY]
-WHERE [CMS_CONTRACT_NBR] = @ContractNumber</CommandText>
+FROM VIEW_CHILLER_RPT_CON_LIT
+WHERE LEFT(@ModelNumber, LEN(modelnum)) = modelnum
+ORDER BY fileid</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
-        <Field Name="SERIAL_NUM">
-          <DataField>SERIAL_NUM</DataField>
+        <Field Name="fileid">
+          <DataField>fileid</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="filename">
+          <DataField>filename</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="CMS_CONTRACT_NBR">
-          <DataField>CMS_CONTRACT_NBR</DataField>
+        <Field Name="metatags">
+          <DataField>metatags</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="CMS_MODEL_NBR">
-          <DataField>CMS_MODEL_NBR</DataField>
+        <Field Name="keywords">
+          <DataField>keywords</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="START_DATE">
-          <DataField>START_DATE</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="SHIP_DATE">
-          <DataField>SHIP_DATE</DataField>
+        <Field Name="modelnum">
+          <DataField>modelnum</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
     </DataSet>
   </DataSets>
   <ReportParameters>
-    <ReportParameter Name="ContractNumber">
+    <ReportParameter Name="ModelNumber">
       <DataType>String</DataType>
-      <Prompt>Contract Number</Prompt>
+      <Prompt>Model Number</Prompt>
     </ReportParameter>
   </ReportParameters>
   <Language>en-US</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportID>3ee905a2-3a14-4c71-bac5-2c165f951988</rd:ReportID>
+  <rd:ReportID>98f75231-7a92-4b89-99eb-c6c550e94018</rd:ReportID>
 </Report>

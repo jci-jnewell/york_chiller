@@ -26,6 +26,10 @@
       <FullPath>Contract Service History Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Remedy.rdl</Name>
+      <FullPath>Remedy.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Warranty Claim Comment Details.rdl</Name>
       <FullPath>Warranty Claim Comment Details.rdl</FullPath>
     </ProjectItem>
@@ -38,8 +42,8 @@
       <FullPath>Warranty Contract Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Remedy.rdl</Name>
-      <FullPath>Remedy.rdl</FullPath>
+      <Name>Contract Literature Details.rdl</Name>
+      <FullPath>Contract Literature Details.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
