@@ -226,6 +226,9 @@
                   <CellContents>
                     <Textbox Name="Textbox2">
                       <CanGrow>true</CanGrow>
+                      <UserSort>
+                        <SortExpression>=Fields!DFF1_I_ESTIMATED_COMP_DATE.Value</SortExpression>
+                      </UserSort>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
@@ -1931,6 +1934,7 @@
                           <Value>=Fields!SERIAL_NUM.Value</Value>
                         </Parameter>
                       </Parameters>
+                      <NoRowsMessage>No Service History is available for this contract.</NoRowsMessage>
                       <Visibility>
                         <Hidden>true</Hidden>
                         <ToggleItem>CONTRACT_NUMBER</ToggleItem>
@@ -1983,6 +1987,7 @@
                           <Value>=Fields!SERIAL_NUM.Value</Value>
                         </Parameter>
                       </Parameters>
+                      <NoRowsMessage>No App Data is available for this contract.</NoRowsMessage>
                       <Visibility>
                         <Hidden>true</Hidden>
                         <ToggleItem>CONTRACT_NUMBER</ToggleItem>
@@ -1991,6 +1996,7 @@
                         <Border>
                           <Style>None</Style>
                         </Border>
+                        <LineHeight>40pt</LineHeight>
                       </Style>
                     </Subreport>
                     <ColSpan>26</ColSpan>
@@ -2035,6 +2041,7 @@
                           <Value>=Fields!CONTRACT_NUMBER.Value</Value>
                         </Parameter>
                       </Parameters>
+                      <NoRowsMessage>No Literature is available for this contract.</NoRowsMessage>
                       <Visibility>
                         <Hidden>true</Hidden>
                         <ToggleItem>CONTRACT_NUMBER</ToggleItem>
