@@ -446,6 +446,8 @@
                               <Value>=Fields!Case_ID.Value</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
+                                <TextDecoration>Underline</TextDecoration>
+                                <Color>Blue</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -453,6 +455,13 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Case_ID</rd:DefaultName>
+                      <ActionInfo>
+                        <Actions>
+                          <Action>
+                            <Hyperlink>="http://bebidev.jci.com/sites/york_support/_layouts/15/ReportServer/RSViewerPage.aspx?rv:RelativeReportUrl=/sites/york_support/York%20Reports/Remedy%20Overview.rdl&amp;rv:HeaderArea=None&amp;rv:ToolBar=None&amp;rv:ParamMode=Hidden&amp;rp:CaseID=" + Fields!Case_ID.Value</Hyperlink>
+                          </Action>
+                        </Actions>
+                      </ActionInfo>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -464,6 +473,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>

@@ -22,6 +22,10 @@
       <FullPath>Contract Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Contract Literature Details.rdl</Name>
+      <FullPath>Contract Literature Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Contract Service History Details.rdl</Name>
       <FullPath>Contract Service History Details.rdl</FullPath>
     </ProjectItem>
@@ -42,8 +46,8 @@
       <FullPath>Warranty Contract Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Contract Literature Details.rdl</Name>
-      <FullPath>Contract Literature Details.rdl</FullPath>
+      <Name>Remedy Overview.rdl</Name>
+      <FullPath>Remedy Overview.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
