@@ -2,37 +2,6 @@
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
-      <Textbox Name="textbox1">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Warranty Contract Details</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Normal</FontWeight>
-                  <Color>SteelBlue</Color>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>textbox1</rd:DefaultName>
-        <Top>0.25in</Top>
-        <Left>0.325in</Left>
-        <Height>0.30444in</Height>
-        <Width>5in</Width>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
       <Tablix Name="table1">
         <TablixBody>
           <TablixColumns>
@@ -165,9 +134,6 @@
                   <CellContents>
                     <Textbox Name="Textbox2">
                       <CanGrow>true</CanGrow>
-                      <UserSort>
-                        <SortExpression>=Fields!START_DATE.Value</SortExpression>
-                      </UserSort>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
@@ -203,9 +169,6 @@
                   <CellContents>
                     <Textbox Name="Textbox7">
                       <CanGrow>true</CanGrow>
-                      <UserSort>
-                        <SortExpression>=Fields!SHIP_DATE.Value</SortExpression>
-                      </UserSort>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
@@ -235,7 +198,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -427,10 +389,99 @@
                           <Value>=Fields!SERIAL_NUM.Value</Value>
                         </Parameter>
                       </Parameters>
-                      <Visibility>
-                        <Hidden>true</Hidden>
-                        <ToggleItem>SERIAL_NUM</ToggleItem>
-                      </Visibility>
+                      <NoRowsMessage>="No claim details found."</NoRowsMessage>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <FontStyle>Italic</FontStyle>
+                        <FontFamily>Tahoma</FontFamily>
+                        <FontSize>11pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Subreport>
+                    <ColSpan>5</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Subreport Name="WarrantyServiceHistory">
+                      <ReportName>Warranty Service History Details</ReportName>
+                      <Parameters>
+                        <Parameter Name="SerialNumber">
+                          <Value>=Fields!SERIAL_NUM.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                      <NoRowsMessage>No Service History is available for this contract.</NoRowsMessage>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Subreport>
+                    <ColSpan>5</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Subreport Name="WarrantyAppData">
+                      <ReportName>Warranty App Data Details</ReportName>
+                      <Parameters>
+                        <Parameter Name="SerialNumber">
+                          <Value>=Fields!SERIAL_NUM.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                      <NoRowsMessage>No App Data is available for this contract.</NoRowsMessage>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <LineHeight>40pt</LineHeight>
+                      </Style>
+                    </Subreport>
+                    <ColSpan>5</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Subreport Name="Literature">
+                      <ReportName>Warranty Literature Details</ReportName>
+                      <Parameters>
+                        <Parameter Name="SerialNumber">
+                          <Value>=Fields!SERIAL_NUM.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                      <NoRowsMessage>No Literature is available for this contract.</NoRowsMessage>
                       <Style>
                         <Border>
                           <Style>None</Style>
@@ -517,23 +568,108 @@
                     <ToggleItem>SERIAL_NUM</ToggleItem>
                   </Visibility>
                 </TablixMember>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>true</Hidden>
+                    <ToggleItem>SERIAL_NUM</ToggleItem>
+                  </Visibility>
+                </TablixMember>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>true</Hidden>
+                    <ToggleItem>SERIAL_NUM</ToggleItem>
+                  </Visibility>
+                </TablixMember>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>true</Hidden>
+                    <ToggleItem>SERIAL_NUM</ToggleItem>
+                  </Visibility>
+                </TablixMember>
               </TablixMembers>
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
+        <NoRowsMessage>No related warranty details were found.</NoRowsMessage>
         <DataSetName>WarrantyContractDetails</DataSetName>
         <Top>0.5in</Top>
-        <Left>0.325in</Left>
-        <Height>0.97in</Height>
+        <Left>0.25in</Left>
+        <Height>1.72in</Height>
+        <Width>8.21877in</Width>
+        <Style>
+          <FontFamily>Tahoma</FontFamily>
+          <Color>DimGray</Color>
+          <PaddingLeft>2pt</PaddingLeft>
+        </Style>
+      </Tablix>
+      <Textbox Name="DUMMY">
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!DUMMY.Value, "ForceVisibleDataSet")</Value>
+                <Style>
+                  <FontSize>6pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>DUMMY</rd:DefaultName>
+        <Top>0in</Top>
+        <Left>0.25in</Left>
+        <Height>0.175in</Height>
         <Width>8.21877in</Width>
         <ZIndex>1</ZIndex>
-        <Style />
-      </Tablix>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="textbox1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Warranty Details</Value>
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <Color>SteelBlue</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>0.175in</Top>
+        <Left>0.25in</Left>
+        <Height>0.325in</Height>
+        <Width>8.21877in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
     </ReportItems>
-    <Height>1.47in</Height>
+    <Height>2.22in</Height>
     <Style />
   </Body>
-  <Width>8.54377in</Width>
+  <Width>8.47916in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -585,6 +721,18 @@ WHERE [CMS_CONTRACT_NBR] = @ContractNumber</CommandText>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
+    </DataSet>
+    <DataSet Name="ForceVisibleDataSet">
+        <Query>
+            <DataSourceName>YorkSupport</DataSourceName>
+            <CommandText>SELECT ' ' AS DUMMY</CommandText>
+        </Query>
+        <Fields>
+            <Field Name="DUMMY">
+                <DataField>DUMMY</DataField>
+                <rd:TypeName>System.String</rd:TypeName>
+            </Field>
+        </Fields>
     </DataSet>
   </DataSets>
   <ReportParameters>

@@ -10,28 +10,24 @@
   <DataSets />
   <Reports>
     <ProjectItem>
-      <Name>Contract App Data Details.rdl</Name>
-      <FullPath>Contract App Data Details.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Contract BOM Details.rdl</Name>
-      <FullPath>Contract BOM Details.rdl</FullPath>
+      <Name>Warranty BOM Details.rdl</Name>
+      <FullPath>Warranty BOM Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Contract Details.rdl</Name>
       <FullPath>Contract Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Contract Literature Details.rdl</Name>
-      <FullPath>Contract Literature Details.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Contract Service History Details.rdl</Name>
-      <FullPath>Contract Service History Details.rdl</FullPath>
+      <Name>Remedy Overview.rdl</Name>
+      <FullPath>Remedy Overview.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Remedy.rdl</Name>
       <FullPath>Remedy.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Warranty App Data Details.rdl</Name>
+      <FullPath>Warranty App Data Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Warranty Claim Comment Details.rdl</Name>
@@ -46,8 +42,12 @@
       <FullPath>Warranty Contract Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Remedy Overview.rdl</Name>
-      <FullPath>Remedy Overview.rdl</FullPath>
+      <Name>Warranty Literature Details.rdl</Name>
+      <FullPath>Warranty Literature Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Warranty Service History Details.rdl</Name>
+      <FullPath>Warranty Service History Details.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>

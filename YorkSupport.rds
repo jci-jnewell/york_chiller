@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="York Support">
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="YorkSupport">
   <ConnectionProperties>
     <Extension>SQL</Extension>
     <ConnectString>Data Source=M301h002.cg.na.jci.com;Initial Catalog=YorkSupport</ConnectString>

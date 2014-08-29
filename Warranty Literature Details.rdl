@@ -2,37 +2,6 @@
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
-      <Textbox Name="textbox1">
-        <CanGrow>true</CanGrow>
-        <KeepTogether>true</KeepTogether>
-        <Paragraphs>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value>Literature</Value>
-                <Style>
-                  <FontFamily>Tahoma</FontFamily>
-                  <FontSize>12pt</FontSize>
-                  <FontWeight>Normal</FontWeight>
-                  <Color>SteelBlue</Color>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style />
-          </Paragraph>
-        </Paragraphs>
-        <rd:DefaultName>textbox1</rd:DefaultName>
-        <Top>0.25in</Top>
-        <Left>0.325in</Left>
-        <Height>0.25in</Height>
-        <Width>5in</Width>
-        <Style>
-          <PaddingLeft>2pt</PaddingLeft>
-          <PaddingRight>2pt</PaddingRight>
-          <PaddingTop>2pt</PaddingTop>
-          <PaddingBottom>2pt</PaddingBottom>
-        </Style>
-      </Textbox>
       <Tablix Name="table1">
         <TablixBody>
           <TablixColumns>
@@ -119,7 +88,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>
@@ -147,19 +115,85 @@
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
+        <NoRowsMessage>No related documents were found.</NoRowsMessage>
         <DataSetName>ContractLiteratureDetails</DataSetName>
         <Top>0.5in</Top>
-        <Left>0.325in</Left>
+        <Left>0.25in</Left>
         <Height>0.21in</Height>
         <Width>9.20833in</Width>
-        <ZIndex>1</ZIndex>
-        <Style />
+        <Style>
+          <FontFamily>Tahoma</FontFamily>
+          <Color>DimGray</Color>
+          <PaddingLeft>2pt</PaddingLeft>
+        </Style>
       </Tablix>
+      <Textbox Name="DUMMY">
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!DUMMY.Value, "ForceVisibleDataSet")</Value>
+                <Style>
+                  <FontSize>6pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>DUMMY</rd:DefaultName>
+        <Left>0.25in</Left>
+        <Height>0.175in</Height>
+        <Width>9.20833in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="textbox1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Literature</Value>
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Normal</FontWeight>
+                  <Color>SteelBlue</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Top>0.175in</Top>
+        <Left>0.25in</Left>
+        <Height>0.325in</Height>
+        <Width>9.20833in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
     </ReportItems>
     <Height>0.71in</Height>
     <Style />
   </Body>
-  <Width>10.37708in</Width>
+  <Width>9.45833in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -205,6 +239,18 @@ ORDER BY filename</CommandText>
         </Field>
       </Fields>
     </DataSet>
+      <DataSet Name="ForceVisibleDataSet">
+          <Query>
+              <DataSourceName>YorkSupport</DataSourceName>
+              <CommandText>SELECT ' ' AS DUMMY</CommandText>
+          </Query>
+          <Fields>
+              <Field Name="DUMMY">
+                  <DataField>DUMMY</DataField>
+                  <rd:TypeName>System.String</rd:TypeName>
+              </Field>
+          </Fields>
+      </DataSet>
   </DataSets>
   <ReportParameters>
     <ReportParameter Name="SerialNumber">
