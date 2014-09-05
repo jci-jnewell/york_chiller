@@ -9,7 +9,7 @@
               <Width>1.80209in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.32292in</Width>
+              <Width>2.91667in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1.88542in</Width>
@@ -228,6 +228,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>White</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -260,6 +261,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>White</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -292,6 +294,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>White</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -324,6 +327,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>White</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -367,6 +371,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>White</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -394,6 +399,16 @@
                         <Border>
                           <Style>None</Style>
                         </Border>
+                        <LeftBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                          <Width>1pt</Width>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                          <Width>1pt</Width>
+                        </RightBorder>
                         <FontStyle>Italic</FontStyle>
                         <FontFamily>Tahoma</FontFamily>
                         <FontSize>11pt</FontSize>
@@ -429,6 +444,16 @@
                         <Border>
                           <Style>None</Style>
                         </Border>
+                        <LeftBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                          <Width>1pt</Width>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                          <Width>1pt</Width>
+                        </RightBorder>
                       </Style>
                     </Subreport>
                     <ColSpan>5</ColSpan>
@@ -457,6 +482,16 @@
                         <Border>
                           <Style>None</Style>
                         </Border>
+                        <LeftBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                          <Width>1pt</Width>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                          <Width>1pt</Width>
+                        </RightBorder>
                         <LineHeight>40pt</LineHeight>
                       </Style>
                     </Subreport>
@@ -486,6 +521,14 @@
                         <Border>
                           <Style>None</Style>
                         </Border>
+                        <LeftBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </RightBorder>
                       </Style>
                     </Subreport>
                     <ColSpan>5</ColSpan>
@@ -521,6 +564,21 @@
                         <Border>
                           <Style>None</Style>
                         </Border>
+                        <BottomBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                          <Width>1pt</Width>
+                        </BottomBorder>
+                        <LeftBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                          <Width>1pt</Width>
+                        </LeftBorder>
+                        <RightBorder>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                          <Width>1pt</Width>
+                        </RightBorder>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -595,8 +653,9 @@
         <Top>0.5in</Top>
         <Left>0.25in</Left>
         <Height>1.72in</Height>
-        <Width>8.21877in</Width>
+        <Width>9.81252in</Width>
         <Style>
+          <BackgroundColor>#f2f8ff</BackgroundColor>
           <FontFamily>Tahoma</FontFamily>
           <Color>DimGray</Color>
           <PaddingLeft>2pt</PaddingLeft>
@@ -618,7 +677,6 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>DUMMY</rd:DefaultName>
-        <Top>0in</Top>
         <Left>0.25in</Left>
         <Height>0.175in</Height>
         <Width>8.21877in</Width>
@@ -669,7 +727,7 @@
     <Height>2.22in</Height>
     <Style />
   </Body>
-  <Width>8.47916in</Width>
+  <Width>10.06252in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -693,10 +751,15 @@
           <QueryParameter Name="@ContractNumber">
             <Value>=Parameters!ContractNumber.Value</Value>
           </QueryParameter>
+          <QueryParameter Name="@SerialNumber">
+            <Value>=Parameters!SerialNumber.Value</Value>
+          </QueryParameter>
         </QueryParameters>
         <CommandText>SELECT *
 FROM [VIEW_CHILLER_RPT_CON_WTY]
-WHERE [CMS_CONTRACT_NBR] = @ContractNumber</CommandText>
+WHERE [CMS_CONTRACT_NBR] = @ContractNumber
+        OR [SERIAL_NUM] = @SerialNumber
+        OR (NULLIF(@SerialNumber, '') IS NOT NULL AND [SERIAL_NUM] LIKE REPLACE(@SerialNumber, '*', '%')) </CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
@@ -723,22 +786,30 @@ WHERE [CMS_CONTRACT_NBR] = @ContractNumber</CommandText>
       </Fields>
     </DataSet>
     <DataSet Name="ForceVisibleDataSet">
-        <Query>
-            <DataSourceName>YorkSupport</DataSourceName>
-            <CommandText>SELECT ' ' AS DUMMY</CommandText>
-        </Query>
-        <Fields>
-            <Field Name="DUMMY">
-                <DataField>DUMMY</DataField>
-                <rd:TypeName>System.String</rd:TypeName>
-            </Field>
-        </Fields>
+      <Query>
+        <DataSourceName>YorkSupport</DataSourceName>
+        <CommandText>SELECT ' ' AS DUMMY</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="DUMMY">
+          <DataField>DUMMY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
     </DataSet>
   </DataSets>
   <ReportParameters>
     <ReportParameter Name="ContractNumber">
       <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
       <Prompt>Contract Number</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="SerialNumber">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>SerialNumber</Prompt>
     </ReportParameter>
   </ReportParameters>
   <Language>en-US</Language>
