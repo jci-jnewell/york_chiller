@@ -6,7 +6,10 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>2.23958in</Width>
+              <Width>2.1875in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>4.66666in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
@@ -15,7 +18,7 @@
               <Width>1.09375in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.11458in</Width>
+              <Width>1.66666in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1.96875in</Width>
@@ -25,6 +28,42 @@
             <TablixRow>
               <Height>0.22in</Height>
               <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Last Update</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Normal</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox2</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
                 <TablixCell>
                   <CellContents>
                     <Textbox Name="textbox3">
@@ -212,6 +251,38 @@
               <TablixCells>
                 <TablixCell>
                   <CellContents>
+                    <Textbox Name="LAST_UPD">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!LAST_UPD.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>LAST_UPD</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
                     <Textbox Name="DESC_TEXT">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -381,6 +452,7 @@
             <TablixMember />
             <TablixMember />
             <TablixMember />
+            <TablixMember />
           </TablixMembers>
         </TablixColumnHierarchy>
         <TablixRowHierarchy>
@@ -408,7 +480,7 @@
         <Top>0.5in</Top>
         <Left>0.25in</Left>
         <Height>0.43in</Height>
-        <Width>9.41666in</Width>
+        <Width>12.58333in</Width>
         <Style>
           <FontFamily>Tahoma</FontFamily>
           <Color>DimGray</Color>
@@ -481,7 +553,7 @@
     <Height>0.93in</Height>
     <Style />
   </Body>
-  <Width>9.66666in</Width>
+  <Width>14.28124in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -492,7 +564,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="YorkSupport">
-      <DataSourceReference>York Support</DataSourceReference>
+      <DataSourceReference>YorkSupport</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>1c5778d6-876c-4678-93f0-4a0b368d229f</rd:DataSourceID>
     </DataSource>
@@ -508,7 +580,8 @@
         </QueryParameters>
         <CommandText>SELECT *
 FROM VIEW_CHILLER_RPT_CON_SERVICE_HISTORY
-WHERE SERIAL_NUM = @SerialNumber</CommandText>
+WHERE SERIAL_NUM = @SerialNumber
+ORDER BY LAST_UPD DESC</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
@@ -520,8 +593,16 @@ WHERE SERIAL_NUM = @SerialNumber</CommandText>
           <DataField>DESC_TEXT</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="LAST_UPD">
+          <DataField>LAST_UPD</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
         <Field Name="PROD_ID">
           <DataField>PROD_ID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LAST_UPD_BY">
+          <DataField>LAST_UPD_BY</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="ROOT_ASSET_ID">
@@ -542,18 +623,18 @@ WHERE SERIAL_NUM = @SerialNumber</CommandText>
         </Field>
       </Fields>
     </DataSet>
-      <DataSet Name="ForceVisibleDataSet">
-          <Query>
-              <DataSourceName>YorkSupport</DataSourceName>
-              <CommandText>SELECT ' ' AS DUMMY</CommandText>
-          </Query>
-          <Fields>
-              <Field Name="DUMMY">
-                  <DataField>DUMMY</DataField>
-                  <rd:TypeName>System.String</rd:TypeName>
-              </Field>
-          </Fields>
-      </DataSet>
+    <DataSet Name="ForceVisibleDataSet">
+      <Query>
+        <DataSourceName>YorkSupport</DataSourceName>
+        <CommandText>SELECT ' ' AS DUMMY</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="DUMMY">
+          <DataField>DUMMY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
   </DataSets>
   <ReportParameters>
     <ReportParameter Name="SerialNumber">
