@@ -977,6 +977,8 @@
                               <Value>=Fields!CONTRACT_NUMBER.Value</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
+                                <TextDecoration>Underline</TextDecoration>
+                                <Color>Blue</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -984,6 +986,13 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>CONTRACT_NUMBER</rd:DefaultName>
+                      <ActionInfo>
+                        <Actions>
+                          <Action>
+                            <Hyperlink>="javascript:void(window.open('http://bebidev.jci.com/sites/york_support/_layouts/15/ReportServer/RSViewerPage.aspx?rv:RelativeReportUrl=/sites/york_support/York%20Reports/Contract%20Overview.rdl&amp;rv:HeaderArea=None&amp;rv:ToolBar=None&amp;rv:ParamMode=Hidden&amp;rp:ContractNumber=" + Fields!CONTRACT_NUMBER.Value + "','_blank','width=680,height=600,status=no,toolbar=no'))"</Hyperlink>
+                          </Action>
+                        </Actions>
+                      </ActionInfo>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -995,6 +1004,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>

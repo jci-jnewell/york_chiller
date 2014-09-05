@@ -10,10 +10,6 @@
   <DataSets />
   <Reports>
     <ProjectItem>
-      <Name>Warranty BOM Details.rdl</Name>
-      <FullPath>Warranty BOM Details.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Contract Details.rdl</Name>
       <FullPath>Contract Details.rdl</FullPath>
     </ProjectItem>
@@ -28,6 +24,10 @@
     <ProjectItem>
       <Name>Warranty App Data Details.rdl</Name>
       <FullPath>Warranty App Data Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Warranty BOM Details.rdl</Name>
+      <FullPath>Warranty BOM Details.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Warranty Claim Comment Details.rdl</Name>
@@ -48,6 +48,10 @@
     <ProjectItem>
       <Name>Warranty Service History Details.rdl</Name>
       <FullPath>Warranty Service History Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Contract Overview.rdl</Name>
+      <FullPath>Contract Overview.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>

@@ -429,7 +429,7 @@
                       <ActionInfo>
                         <Actions>
                           <Action>
-                            <Hyperlink>="javascript:window.open('http://bebidev.jci.com/sites/york_support/_layouts/15/ReportServer/RSViewerPage.aspx?rv:RelativeReportUrl=/sites/york_support/York%20Reports/Remedy%20Overview.rdl&amp;rv:HeaderArea=None&amp;rv:ToolBar=None&amp;rv:ParamMode=Hidden&amp;rp:CaseID=" + Fields!Case_ID.Value + "','_blank','width=680,height=600,status=no,toolbar=no')"</Hyperlink>
+                            <Hyperlink>="javascript:void(window.open('http://bebidev.jci.com/sites/york_support/_layouts/15/ReportServer/RSViewerPage.aspx?rv:RelativeReportUrl=/sites/york_support/York%20Reports/Remedy%20Overview.rdl&amp;rv:HeaderArea=None&amp;rv:ToolBar=None&amp;rv:ParamMode=Hidden&amp;rp:CaseID=" + Fields!Case_ID.Value + "','_blank','width=680,height=600,status=no,toolbar=no'))"</Hyperlink>
                           </Action>
                         </Actions>
                       </ActionInfo>
@@ -444,7 +444,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>

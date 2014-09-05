@@ -82,7 +82,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>SERIAL NUM</Value>
+                              <Value>Serial #</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -118,7 +118,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>SEQNO</Value>
+                              <Value>Seq #</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -1750,18 +1750,18 @@ WHERE SERIAL_NUM = @SerialNumber</CommandText>
         </Field>
       </Fields>
     </DataSet>
-      <DataSet Name="ForceVisibleDataSet">
-          <Query>
-              <DataSourceName>YorkSupport</DataSourceName>
-              <CommandText>SELECT ' ' AS DUMMY</CommandText>
-          </Query>
-          <Fields>
-              <Field Name="DUMMY">
-                  <DataField>DUMMY</DataField>
-                  <rd:TypeName>System.String</rd:TypeName>
-              </Field>
-          </Fields>
-      </DataSet>
+    <DataSet Name="ForceVisibleDataSet">
+      <Query>
+        <DataSourceName>YorkSupport</DataSourceName>
+        <CommandText>SELECT ' ' AS DUMMY</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="DUMMY">
+          <DataField>DUMMY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
   </DataSets>
   <ReportParameters>
     <ReportParameter Name="SerialNumber">
