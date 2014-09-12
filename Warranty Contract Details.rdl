@@ -504,6 +504,42 @@
                 <TablixCell />
               </TablixCells>
             </TablixRow>
+              <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                      <TablixCell>
+                          <CellContents>
+                              <Subreport Name="Literature">
+                                  <ReportName>Warranty Literature Details</ReportName>
+                                  <Parameters>
+                                      <Parameter Name="SerialNumber">
+                                          <Value>=Fields!SERIAL_NUM.Value</Value>
+                                      </Parameter>
+                                  </Parameters>
+                                  <NoRowsMessage>No Literature is available for this contract.</NoRowsMessage>
+                                  <Style>
+                                      <Border>
+                                          <Style>None</Style>
+                                      </Border>
+                                      <LeftBorder>
+                                          <Color>LightGrey</Color>
+                                          <Style>Solid</Style>
+                                      </LeftBorder>
+                                      <RightBorder>
+                                          <Color>LightGrey</Color>
+                                          <Style>Solid</Style>
+                                      </RightBorder>
+                                  </Style>
+                              </Subreport>
+                              <ColSpan>5</ColSpan>
+                          </CellContents>
+                      </TablixCell>
+                      <TablixCell />
+                      <TablixCell />
+                      <TablixCell />
+                      <TablixCell />
+                  </TablixCells>
+              </TablixRow>
             <TablixRow>
               <Height>0.25in</Height>
               <TablixCells>
@@ -516,37 +552,6 @@
                           <Value>=Fields!SERIAL_NUM.Value</Value>
                         </Parameter>
                       </Parameters>
-                      <Visibility>
-                        <ToggleItem>SERIAL_NUM</ToggleItem>
-                      </Visibility>
-                      <Style>
-                        <Border>
-                          <Style>None</Style>
-                        </Border>
-                      </Style>
-                    </Subreport>
-                    <ColSpan>5</ColSpan>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell />
-                <TablixCell />
-                <TablixCell />
-                <TablixCell />
-              </TablixCells>
-            </TablixRow>
-            <TablixRow>
-              <Height>0.25in</Height>
-              <TablixCells>
-                <TablixCell>
-                  <CellContents>
-                    <Subreport Name="Literature">
-                      <ReportName>Warranty Literature Details</ReportName>
-                      <Parameters>
-                        <Parameter Name="SerialNumber">
-                          <Value>=Fields!SERIAL_NUM.Value</Value>
-                        </Parameter>
-                      </Parameters>
-                      <NoRowsMessage>No Literature is available for this contract.</NoRowsMessage>
                       <Style>
                         <Border>
                           <Style>None</Style>
@@ -554,10 +559,12 @@
                         <LeftBorder>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
+                          <Width>1pt</Width>
                         </LeftBorder>
                         <RightBorder>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
+                          <Width>1pt</Width>
                         </RightBorder>
                       </Style>
                     </Subreport>
