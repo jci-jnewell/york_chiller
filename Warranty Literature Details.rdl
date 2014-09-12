@@ -72,7 +72,7 @@
                       <ActionInfo>
                         <Actions>
                           <Action>
-                            <Hyperlink>="javascript:void(window.open('https://my.jci.com/sites/MetasysBigGrab/Shared%20Documents/" + Right(Fields!filename.Value, Len(Fields!filename.Value) - InStrRev(Fields!filename.Value, "\")) + "','_blank','toolbars=no,statusbar=0,width=800,height=800'))"</Hyperlink>
+                            <Hyperlink>="javascript:void(window.open('https://my.jci.com/sites/MetasysBigGrab/Shared%20Documents/York%20Manuals/" + Right(Fields!filename.Value, Len(Fields!filename.Value) - InStrRev(Fields!filename.Value, "\")) + "','_blank','toolbars=no,statusbar=0,width=800,height=800'))"</Hyperlink>
                           </Action>
                         </Actions>
                       </ActionInfo>
@@ -88,6 +88,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
               </TablixCells>

@@ -509,6 +509,36 @@
               <TablixCells>
                 <TablixCell>
                   <CellContents>
+                    <Subreport Name="WarrantyBOMDetails">
+                      <ReportName>Warranty BOM Details</ReportName>
+                      <Parameters>
+                        <Parameter Name="SerialNumber">
+                          <Value>=Fields!SERIAL_NUM.Value</Value>
+                        </Parameter>
+                      </Parameters>
+                      <Visibility>
+                        <ToggleItem>SERIAL_NUM</ToggleItem>
+                      </Visibility>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                      </Style>
+                    </Subreport>
+                    <ColSpan>5</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+                <TablixCell />
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
                     <Subreport Name="Literature">
                       <ReportName>Warranty Literature Details</ReportName>
                       <Parameters>
@@ -644,6 +674,12 @@
                     <ToggleItem>SERIAL_NUM</ToggleItem>
                   </Visibility>
                 </TablixMember>
+                <TablixMember>
+                  <Visibility>
+                    <Hidden>true</Hidden>
+                    <ToggleItem>SERIAL_NUM</ToggleItem>
+                  </Visibility>
+                </TablixMember>
               </TablixMembers>
             </TablixMember>
           </TablixMembers>
@@ -652,7 +688,7 @@
         <DataSetName>WarrantyContractDetails</DataSetName>
         <Top>0.5in</Top>
         <Left>0.25in</Left>
-        <Height>1.72in</Height>
+        <Height>1.97in</Height>
         <Width>9.81252in</Width>
         <Style>
           <BackgroundColor>#f2f8ff</BackgroundColor>
@@ -724,7 +760,7 @@
         </Style>
       </Textbox>
     </ReportItems>
-    <Height>2.22in</Height>
+    <Height>2.47in</Height>
     <Style />
   </Body>
   <Width>10.06252in</Width>
