@@ -1,0 +1,40 @@
+USE [YorkSupport]
+GO
+
+/****** Object:  View [dbo].[VIEW_CHILLER_RPT_CON_BOM]    Script Date: 9/12/2014 2:55:12 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE VIEW [dbo].[VIEW_CHILLER_RPT_CON_BOM]
+AS
+SELECT 
+	[SERIAL_NUM],
+	[SEQNO],
+	[USRS1],
+	[RELEV],
+	[CINBR],
+	[USRS2],
+	[FOPCD],
+	[FOPNO],
+	[QTYPRC],
+	[UNMSRC],
+	[ITTYPC],
+	[ITDSCC],
+	[SERIALC],
+	[CSRC],
+	[PSRC],
+	[PARTTYP],
+	[SNFLG],
+	[PITD1],
+	[PITD2],
+	[CMDTY],
+	[NATBRD#]
+FROM [YorkSupport].[dbo].[BOMDTL]
+WHERE LEN(SEQNO) > 0
+
+GO
+
