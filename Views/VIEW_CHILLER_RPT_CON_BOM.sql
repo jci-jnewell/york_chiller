@@ -1,7 +1,7 @@
 USE [YorkSupport]
 GO
 
-/****** Object:  View [dbo].[VIEW_CHILLER_RPT_CON_BOM]    Script Date: 9/12/2014 2:55:12 PM ******/
+/****** Object:  View [dbo].[VIEW_CHILLER_RPT_CON_BOM]    Script Date: 10/28/2014 9:17:52 AM ******/
 SET ANSI_NULLS ON
 GO
 

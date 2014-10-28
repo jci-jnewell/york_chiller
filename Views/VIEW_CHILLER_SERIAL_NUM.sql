@@ -1,7 +1,7 @@
 USE [YorkSupport]
 GO
 
-/****** Object:  View [dbo].[VIEW_CHILLER_SERIAL_NUM]    Script Date: 9/12/2014 2:57:08 PM ******/
+/****** Object:  View [dbo].[VIEW_CHILLER_SERIAL_NUM]    Script Date: 10/28/2014 9:19:01 AM ******/
 SET ANSI_NULLS ON
 GO
 
